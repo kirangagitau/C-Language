@@ -1,1 +1,5 @@
-
+1 Use include guards is very nice.
+2 A single functions solves a specific tast
+3 Adopt the betty coding systle.
+4 Document your project very well
+5 
