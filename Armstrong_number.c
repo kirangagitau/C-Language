@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
 
 /**
 *@Author Gitau Muguro
@@ -10,6 +12,7 @@
 int main() {
    int arms = 153; 
    int check, rem, sum = 0;
+   pid_t pid,ppid;
 
    check = arms;
 
@@ -23,6 +26,10 @@ int main() {
       printf("%d is an armstrong number.", arms);
    else 
       printf("%d is not an armstrong number.", arms);
-      
+
+   pid = getpid();
+   printf("\nTHIS PROCESS RUN WITH PID: %u\n" ,pid);
+   ppid = getppid();
+   printf("PARENT PID: %d\n");
    return 0;
 }
