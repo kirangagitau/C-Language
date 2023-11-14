@@ -30,6 +30,6 @@ int main() {
    pid = getpid();
    printf("\nTHIS PROCESS RUN WITH PID: %u\n" ,pid);
    ppid = getppid();
-   printf("PARENT PID: %d\n");
+   printf("PARENT PID: %u\n", ppid);
    return 0;
 }
