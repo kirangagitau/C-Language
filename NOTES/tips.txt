@@ -2,4 +2,4 @@
 2 A single functions solves a specific tast
 3 Adopt the betty coding systle.
 4 Document your project very well
-5 
+5 C is fun and very powerful 
